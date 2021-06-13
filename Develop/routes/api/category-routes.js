@@ -52,7 +52,14 @@ router.post('/', async (req, res) => {
 
 // UPDATE a category by its `id` value
 router.put('/:id', (req, res) => {
-  // update a category by its `id` value
+  Category.update({
+    category_name: req.body.category_name,
+  })
+  // sends updated category as a json response
+  .then((updatedCategory) => {
+    res.json(updatedCategory);
+  })
+  .catch((err) => res.json(err));
 });
 
 

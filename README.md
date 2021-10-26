@@ -1,4 +1,4 @@
-# 13-eCommerce-back-end
+# eCommerce-back-end
 Back end for e-commerce site modifying starter code (homework)
 
 ## Description
@@ -51,7 +51,7 @@ e) DEL to delete a single category, a single product, and a single tag being tes
 ## LINKS 
 
 ### Link to gitHub
-[GitHub Repo](https://github.com/adina-hc/13-eCommerce-back-end)
+[GitHub Repo](https://github.com/adina-hc/eCommerce-back-end)
 
 ### Link to video
 [Link to video](https://drive.google.com/file/d/1dgjfemwWuMke7ly7ktjw1hH80RzMHlUs/view)
